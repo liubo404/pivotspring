@@ -15,7 +15,8 @@ Spring is currently the VIP of Java frameworks and it has been growing exponenti
 
 
 * **Spring Framework** provides core support for dependency injection, transaction management, web applications, data access, messaging, and more.
-
+* **Spring Boot** provides compact setups for different types of applications, helping you to focus on your code instead of infrastructure configuration.
+* **Spring XD** simplifies the development of Big Data applicatios.
 
 
 
