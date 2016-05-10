@@ -11,7 +11,7 @@ Release in October 2002 as an open source framework and an inversion of control 
 
 Spring comes with a lot of default behaviors already implemented(components called infrastructure beans are a default configuration; then can be used to create functional basic applications without extra customization), because the Spring Framework was also built with the convention over configuration paradigm as principle, which seeks to decrease the number of decisions a developer has to make when writing code, but also makes it easier for the developer to customize the behavior of objects, offering increased flexibility.
 
-Spring is currently the VIP of Java frameworks and it has been growing exponentially, especially since 2009, when VMware acquired SpringSource, the company behind Spring. The VMware and the EMC Corporation in April 2013, now known as Pivotal, was also advantageous for Spring, as it became one of Pivotal's central elements in its strategy to provide innovative and modern software-driven experiences to its customers. Spring is now a full-blown technoloy that can be used to build enterprise-ready applications in a very short time, and it comes in 25 flavors. Figure 1-1 shows a diagram of all Spring-released projects. The following list describes these projects.
+
 
 
 
