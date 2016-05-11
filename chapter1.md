@@ -18,6 +18,31 @@ Spring is currently the VIP of Java frameworks and it has been growing exponenti
 * **Spring Boot** provides compact setups for different types of applications, helping you to focus on your code instead of infrastructure configuration.
 * **Spring XD** simplifies the development of Big Data applicatios.
 
+[^n]: You can read about these projects, as well as other pojects that have not released officially(Spring Session, for example) in detail at http://spring.io/projects.
+
+* **Spring Cloud** provides a set of tools for distributed applications.
+* **Spring Data** provides a consistent approach to data access. (This study guide uses a subproject called Spring Data JPA to help us manage data easily.)
+* **Spring Integration** supoorts the well-known Enterprise Integration Patterns via lightweight messaging and declarative adapters.
+* **Spring Batch** simplifies and optimizes the work of processing high-volume batch operations.
+* **Spring Security** provides tools for authentication and authorization. (Because _web security is one of the subjects of the certification exam_, there is a section about web security in this study guide that you will have to pay close attention to.)
+* **Spring HATEOAS** provides some APIs to help the development of REST representations that follow the HATEOAS principle(Hypermedia as the Engine of Application State,which means that a client interacts with a network application entirely through hypermedia provided dynamically by application servers).
+* **Spring Social** provides an API to connect Spring applications to the third-party APIs of social networks like Facebook and Twitter, as well as others.
+* **Spring AMQP** provides an API for AMQP-based messaging solutions.
+* **Spring Mobile** simplifies the development of mobile applications.
+* **Spring for Android** provides key spring components to use in the development of Android applications.
+* **Spring Web Flow** supports the building of web application with controlled navigation(Spring Web Flow is another subject in the certification exam.)
+* **Spring Web Service** facilitates the development of SOAP-based applications.
+* **Spring LDAP** provides tools to develop LDAP applications.
+* **Grails** is a powerful open source web framework based on Groovy and inspired by Ruby on Rails. It is used to create web applications that run on the Java Virtual Machine(JVM).
+* **Groovy** started as a dynamic language for the Java platform. It brings high-productiviy development features to the JVM,  and resembles Python, Ruby, Perl, and Smalltalk in regards to syntax and features. SpringSource has taken over its development and maintenance.
+* **Spring Scala** mixed up Spring with Scala language features.
+* **Spring Roo** helps define application templates that can be built into a full Java application within minutes.
+* ** Spring  BlazeDS Integration** tools integrate Spring with Adobe BlazeDS.
+* **Spring Loaded** reloads classes as files changes, boosting productivily (similar project to JRebel).
+
+[^n]: Pivotal decided to stop funding this project in March 2015.
+[^n]: Funding for this project also enned din March 2015.
+
 
 
 
