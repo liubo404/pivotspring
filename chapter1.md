@@ -43,6 +43,23 @@ Spring is currently the VIP of Java frameworks and it has been growing exponenti
 [^n]: Pivotal decided to stop funding this project in March 2015.
 [^n]: Funding for this project also enned din March 2015.
 
+* **Spring Shell** provides the capability to build command-line apps.
+* **REST Shell** makes the writing and testing of RESTful application easier with CLI-based resource discovery and interaction.
+
+## The Focus of this Study Guide
+As this study guide is being written, the Spring Framework consists of features organized into about 20 modules grouped into following: Core Container, Data Access/Integration, Web, AOP(aspect-oriented programming), Instrumentation, Messaging, and Test.
+   The topics covered in this study guide are Spring Framework's support components for the presentation tier(and specifically web-based presentatation tires). A bonus in this book is the Spring WebSocket chapter, which was added to the Spring Framework in version 4 and is also an optional part of the official Spring Web course not featured in the certification exam. In the Figure 1-2 you can see the SprngMVC stack, a tiered representation of the modules commonly used to create Spring web applications.
+
+_Figure 1-2. The Spring Web Stack(those with dotted lines will not be covered in this study guide)_
+
+	This study guide focuses on helping developers understand how Spring's web infrastructure is designed, and how to write Spring web applications in a few easy steps by maximizing Spring's potential.The study guide's objective are as follows:
+	- Use Spring to develop web applications
+	- Use Spring Web Flow to implement stateful interactions
+	- Use Spring Security to secure web applicatons
+	- Use Spring Test and other test frameworks(JUnit, JMock) to test web applications
+	- Create Spring web applications using Gradle^4[^4]
+
+[^4] : Gradle is an automated build tool that is easy to cnfigure and use on any type of application. Its build files are written using JSON and Groovy. Gradle combines the power and flexibility of Ant with dependency management and conventions of Maven into a more effective way to build. Read more about it at https://www.gradle.org.
 
 
 
