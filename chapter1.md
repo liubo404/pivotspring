@@ -52,12 +52,12 @@ As this study guide is being written, the Spring Framework consists of features 
 
 _Figure 1-2. The Spring Web Stack(those with dotted lines will not be covered in this study guide)_
 
-	This study guide focuses on helping developers understand how Spring's web infrastructure is designed, and how to write Spring web applications in a few easy steps by maximizing Spring's potential.The study guide's objective are as follows:
-	- Use Spring to develop web applications
-	- Use Spring Web Flow to implement stateful interactions
-	- Use Spring Security to secure web applicatons
-	- Use Spring Test and other test frameworks(JUnit, JMock) to test web applications
-	- Create Spring web applications using Gradle^4[^4]
+This study guide focuses on helping developers understand how Spring's web infrastructure is designed, and how to write Spring web applications in a few easy steps by maximizing Spring's potential.The study guide's objective are as follows:
+- Use Spring to develop web applications
+- Use Spring Web Flow to implement stateful interactions
+- Use Spring Security to secure web applicatons
+- Use Spring Test and other test frameworks(JUnit, JMock) to test web applications
+- Create Spring web applications using Gradle^4[^4]
 
 [^4] : Gradle is an automated build tool that is easy to cnfigure and use on any type of application. Its build files are written using JSON and Groovy. Gradle combines the power and flexibility of Ant with dependency management and conventions of Maven into a more effective way to build. Read more about it at https://www.gradle.org.
 
