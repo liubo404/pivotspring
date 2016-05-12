@@ -3,8 +3,8 @@ Any application system is make of components that work together to solve a probl
 
 [^1]A software term introduced by Martin Fowler, Rebeca Parsons, and Josh MacKenzie in September 2000 to refer to ordinary Java objects not bound by any restriction.
 
-![Figure 2-1](../../img/f21.png)
-![Local Image](./img/f11.png)
+![Figure 2-1](../../../img/f21.png)
+
 _**Figure2-1**. UML sequence of operations necessary to create a Person instance_
 
 The components making up an application interact and depend on one another. Defining how those objects are composed is quite difficult using plain Java. Even with the help of all the design patterns defined by experts in the software industry, the work is still cumbersome, as the pattern components still have to be implemented before used. The Spring _invertion of control_(IoC) container was degined to help developers compose objects into fully working applications, ready to use[^2].
