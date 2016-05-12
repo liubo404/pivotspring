@@ -127,7 +127,18 @@ Chapter | Topic | Details
 A | Appendix | Two mock exams, answers to review questions, and other comments
 
 ## How Each Chapter Is Structured
-This introdudctory chapter, the one you are reading now, covers the basics of Spring and Spring related-notions that every developer using this study guide should know: what Spring is, how it has evolved, the number of official Spring projects, the Spring Web technologies, the technologies used to build and run the practical exercises, how to register fro the exam to become a Certified spring Developer, and so on. This chapter is the exception; it is sturctured differently than the to	
+This introdudctory chapter, the one you are reading now, covers the basics of Spring and Spring related-notions that every developer using this study guide should know: what Spring is, how it has evolved, the number of official Spring projects, the Spring Web technologies, the technologies used to build and run the practical exercises, how to register fro the exam to become a Certified spring Developer, and so on. This chapter is the exception; it is sturctured differently than the others because it is designed to prepare you for what is coming next.
+All the other chapters are designed to cover a Spring module and associated technologies, which will help you build a specific type of Spring web application. Each chapter is split into a few sectins, but in a nutshell, a chapter could be split as follows:
+- Basics
+- Configuration
+- Components
+- Summary
+- Quick quiz
+- Practical exercise
+
+## Conventions
+   ! This symbol appears in front of paragraghs that you should pay particular attention to.
+   ** This symbol appears in front of a pa
 
 
 
