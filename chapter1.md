@@ -57,13 +57,13 @@ This study guide focuses on helping developers understand how Spring's web infra
 - Use Spring Web Flow to implement stateful interactions
 - Use Spring Security to secure web applicatons
 - Use Spring Test and other test frameworks(JUnit, JMock) to test web applications
-- Create Spring web applications using Gradle^4[^4]
+- Create Spring web applications using Gradle[^4]
 
-[^4] : Gradle is an automated build tool that is easy to cnfigure and use on any type of application. Its build files are written using JSON and Groovy. Gradle combines the power and flexibility of Ant with dependency management and conventions of Maven into a more effective way to build. Read more about it at https://www.gradle.org.
+[^4]Gradle is an automated build tool that is easy to cnfigure and use on any type of application. Its build files are written using JSON and Groovy. Gradle combines the power and flexibility of Ant with dependency management and conventions of Maven into a more effective way to build. Read more about it at https://www.gradle.org.
 
 
 ## Who Should Use this Study Guide
-This study guide is designed to help any Spring developer become familiar and comfortable with Spring-associated technologies for web development. It can also be a big help to a developer who wants to become a **Certified Spring Web Application Developer**^5. That is why every topic in the official VMware Spring Web study guide is given the attention that it deserves.
+This study guide is designed to help any Spring developer become familiar and comfortable with Spring-associated technologies for web development. It can also be a big help to a developer who wants to become a **Certified Spring Web Application Developer**[^5]. That is why every topic in the official VMware Spring Web study guide is given the attention that it deserves.
 You do not have to be a Certified Spring Professional to use this study guide; you just need minimal knowledge of Spring. Because this study guide has a full chapter dedicated to the Spring component, it might be possible for a non-Spring developer to use this study guide too, but the _Spring Framework Reference_ official documentation should be consulted to retrieve any missing pieces of information.
 In a nutshell, this study guide was written to be used by the following audiences:
 - Spring Core developers who want a taste of Spring Web
@@ -73,7 +73,7 @@ In a nutshell, this study guide was written to be used by the following audience
 ## About the Spring Web Certification Exam
 If you are interested in becoming a **Certified Spring Web Application Developer**, the first step is to go to the VMware official learning site(http://pivotal.io/training) and search for the Spring Certification section. There you will find all the details you need regarding the official trainings, including where and when they take place. The training is four days long. There is online training available as well. After creating an account on the VMware site, you can select your desired training. After you make the payment, if you choose an online training, after about a month you will receive (through the mail) an official training kit that consists of the following:
 - A paire of conference headphones(usually Logitch) to be used during training to hear your trainer talk and to ask questions.
-- A professional webcam(usually Logitech) to be used during training so that your trainer and colleagues can see you, thus simulating a classroom experience.^8
+- A professional webcam(usually Logitech) to be used during training so that your trainer and colleagues can see you, thus simulating a classroom experience.[^8]
 - A Spring study guide book containing the printed version of the slides your tutor will use during training.
 - A Spring study lab book containing explanations and instructions for the practical exercises you will do during taining.
 - A SpringSource official flash drive containing the following:
@@ -81,10 +81,10 @@ If you are interested in becoming a **Certified Spring Web Application Developer
 
 
 
-^5Keep in mind that attending a Spring Web taining course by Pivotal or at a VMware Authorized Training Certer is prerequisite to becoming a Certified Spring Web Application Developer, as stated on the official site at http://mylearn.vmware.com/mgrReg/plan.cfm?plan=31111ui=www_cert.
-^6The Spring Framework Reference is at http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/.
-^7Depending on the area and the training certer, this item is optional.
-^8Depending on the area and the training certer, this item is also optional.
+[^5]Keep in mind that attending a Spring Web taining course by Pivotal or at a VMware Authorized Training Certer is prerequisite to becoming a Certified Spring Web Application Developer, as stated on the official site at http://mylearn.vmware.com/mgrReg/plan.cfm?plan=31111ui=www_cert.
+[^6]The Spring Framework Reference is at http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/.
+[^7]Depending on the area and the training certer, this item is optional.
+[^8]Depending on the area and the training certer, this item is also optional.
 
 
 
