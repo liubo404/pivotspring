@@ -3,7 +3,7 @@ Any application system is make of components that work together to solve a probl
 
 [^1]A software term introduced by Martin Fowler, Rebeca Parsons, and Josh MacKenzie in September 2000 to refer to ordinary Java objects not bound by any restriction.
 
-![Figure 2-1](../../../img/f21.png)
+![Figure 2-1](../img/f21.png)
 
 _**Figure2-1**. UML sequence of operations necessary to create a Person instance_
 
