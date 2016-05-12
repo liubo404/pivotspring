@@ -101,33 +101,7 @@ If you do not choose to do online training, you will not receive the headphones 
 - Web security
 - REST
 
-The passing score for the exam is **76%**. This means that **38** correct answers are needed to pass. Most of the questions present you with a piece of Java code or configuration and then ask you what it does, so make sure that you understand the code attached to this book and write your own beans and configurations in order to understand the framework better. The good news is that all the code in the exam can be found in the sources that you are given while attending the official training. Other questions present you with affirmations about Spring Web and require you to select the correct or the invalid ones.
-If you read this book, understaand all the examples, solve the practice exercises, and then attend the official training, the recommendation is to take the certification exam as soon as possible afterward. Do not allow too much time to pass between finishing  the training and taking the exam, because we are ll human after all, and information can be forgotten. Also, _the certification vouche is only valid for a year_. You can retake the exam if you fail the first time, but it will cost you  ~$150.
-
-## How to Use this Study Guide
-This study guide follows the same path as the ofiicial Spring Web training, and focuses on the topics that are found in the certification exam; but there are a few differencess, which are mentioned from now on.
-This Spring study guide covers the SpringMVC Portlets. This topic is not in the exam, but you never know when you may need them in your development career, so it is better to have an overview.
-The other differences are related to the tools used for the practical examples, which are mentioned in the next sectin.
-
-## How this Book Is Structured
-This study guide has eight chapters. You might think: How is this possible--the official spring study guide has eixteen chapter, right? It is better to wrap related things together, so in this study guide you have two big chapters that cover 60% of the exam topics: Chapter 3 covers Spring MVC and Chapter 7 covers Srng Web Flow. Also, some topics that have their own dedicated chapter in the official study guide have been included in other chapters, as relevant, in this book.(For example, how to test web application. there's no need of a separate chapter just for this, as testing is main portion in the development of an applicatin.)
-A list of this study guide's chapters, along with a short description, is presented in Table1-1.
-_**Table 1-1.** Study Guide Chapters_
-
-Chapter | Topic | Details
---- | --- | --
-1 | Introduction | An introduction to spring history, technologies, and the tools used for practice in this study guide
-2 | Spring Fundamentals | Sping core concepts, components, and configurations
-3 | Spring MVC | Spring Web Framework core concepts, components, and configurations
-4 | Spring Portlets | What portlets are, how they can be used, and how can spring make this easier
-5 | Spring RESTful Services | Advanced Spring MVC fro REST applications
-6 | Spring Web with AJAX | Advanced Spring MVC with AJAX web applications
-7 | Spring Web Flow | Basic and advanced topics on working with Spring Web Flow
-8 | Spring Web Socket | Basic configuration and usage of Spring Web Socket
-A | Appendix | Two mock exams, answers to review questions, and other comments
-
-## How Each Chapter Is Structured
-This introdudctory chapter, the one you are reading now, covers the basics of Spring and Spring related-notions that every developer using this study guide should know: what Spring is, how it has evolved, the number of official Spring projects, the Spring Web technologies, the technologies used to build and run the practical exercises, how to register fro the exam to become a Certified spring Developer, and so on. This chapter is the exception; it is sturctured differently than the to	
+The passing score for the exam is **76%**. This means that **38** correct answers are needed to pass. Most of the questions present you with a piece of Java code or configuration and then ask you what it does, so make sure that you understand the code attached to this book and 
 
 
 
