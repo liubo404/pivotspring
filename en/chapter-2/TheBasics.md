@@ -11,5 +11,7 @@ The components making up an application interact and depend on one another. Defi
 
 The Spring container is responsible for the creation of components,resolving their dependencies and providing them to other components. It does this by reading the configuration of an application from *.xml files or annotated configuration classes, and internally constructs a graph of dependencies between the objects. It then proceeds to traverse the graph, and creates and injects dependencies according to the configuration. The result of this initialization is an **ApplicationContext**,which provides access to application components, resource loading, internationalization support, and other features that won't be mentioned in this guide because it is out of scopy[^3].Figure2-2 depicts the process of creating an **ApplicationContext** using the Spring IoC container.
 
+![Figure 2-2](../img/f22.png)
+
 [^2]The process through which an object is provided its dependencies, whethere it is usig a constructor or properties which are set using setter methods, is called _dependency injection. inversion of control_ is the concept through which an external component has control over what is provided as a dependency to an object.
 [^3]For more information, see the public reference documentation at http://docs.spring.io/spring/docs/current/spring-framework-reference.
