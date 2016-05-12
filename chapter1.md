@@ -78,13 +78,31 @@ If you are interested in becoming a **Certified Spring Web Application Developer
 - A Spring study lab book containing explanations and instructions for the practical exercises you will do during taining.
 - A SpringSource official flash drive containing the following:
   - A JDK installer.
-
+  - Sources necessary for your tarining. Each study lab has s small Spring web application with missing configuration and code; the student's task is to complete it to become a working application. The same model is used in the code associated with this book.
+  - An install for the most recent stable version of the Spring Tool Suite(STS). The version on the flash drive is mandatory for the course because the install sets up a local Maven repository with all the needed dependencies, and a full eclipse project configuration with the lab sources. The STS also has an internal tc Server to run the lab application.
+  - An HTML or PDF version of the Spring Study Lab.
+  
 
 
 [^5]Keep in mind that attending a Spring Web taining course by Pivotal or at a VMware Authorized Training Certer is prerequisite to becoming a Certified Spring Web Application Developer, as stated on the official site at http://mylearn.vmware.com/mgrReg/plan.cfm?plan=31111ui=www_cert.
+
 [^6]The Spring Framework Reference is at http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/.
+
 [^7]Depending on the area and the training certer, this item is optional.
+
 [^8]Depending on the area and the training certer, this item is also optional.
+
+If you do not choose to do online training, you will not receive the headphones nor the webcam. The training kit and the rest of the materials are given to you when you arrive at the location where the training is taking place. After your training, you receive a free voucher that is required to schedule the certification exam at an approved exam center near you. Basically, this voucher or voucher code is proof that you have attended official Spring Web training.
+!The exam duration is **90 minutes** and consists of **50 questions**. There are both single-anser and multiple-choice questions. The questions cover(roughly) the following topics:
+- Spring overview(Spring core notions)
+- MVC essentials(contifurations, beans to use, converions)
+- MVC forms and views
+- Webflow
+- Web security
+- REST
+
+The passing score for the exam is **76%**. This means that **38** correct answers are needed to pass. Most of the questions present you with a piece of Java code or configuration and then ask you what it does, so make sure that you understand the code attached to this book and 
+
 
 
 
