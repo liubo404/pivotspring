@@ -1,0 +1,16 @@
+### XML
+The following code is the XML content of a file named app-simple-config.xml, which is the configuration file for a simple Spring application:
+```xml
+<beans>
+	<bean id="personManager" class="com.book.plain.PlainPersonManagerImpl">
+	      <constructor-arg ref="personRepository" />
+	</bean>
+	<bean id="personReposity" class="com.book.plain.PlainPersonRepository">
+	      <property name="dataSource" ref="dataSource" />
+	</bean>
+	<bean id="dataSource" class="com.oracle.jdbc.pool.OracleDataSource">
+	      <property name="URL" value="jdbc:oracle:thin:@localhost:1521:orcl" />
+	</bean>
+</beans>
+```
+And here is how the code to save a Person instance looks with Spring:

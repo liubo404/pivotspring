@@ -138,8 +138,66 @@ All the other chapters are designed to cover a Spring module and associated tech
 
 ## Conventions
    ! This symbol appears in front of paragraghs that you should pay particular attention to.
-   ** This symbol appears in front of a pa
+   ** This symbol appears in front of a paragraph that is an observation or an execution step that you can skip.
+   ? This symbol appears in front of a question fro the user.
+   ... This symbol replaces missing code that is not relevant in the example.
+   **CC** This symbol appears in front of a  paragraph that describes a convertion over configuration practice in Spring, a default behavior that helps a developer reduce his or her work.
+   **[_random text here_]** Text surrouned by square brackets means that the text within the brackets should be replaced by a context-related notion.
 
+## Downloading the Code
+This study guide comes with code examples and practical exercises. There will be missing pieces of code that you will have to fill in to make applications work and to test your understanding of Spring Web. It is recommened that you go over the code samples and do the exercises, as similar pieces of code and configurations will appear in the certification exam.
+The following downloads are available:
+- Sources code for the programming examples in the book chapters
+- Sources code for the programming examples in the practice section
+You can downlad these items from the Source Code area of the Apress web site(www.apress.com).
+
+
+## Contacting the Author
+More information on Iuliana Cosmina can be found at http://ro.likedin.com/in/iuliancosmina. She can be reached at iuliana.cosmina@gmail.com. Follow her personal  coding activity at https://github.com/uiliana.
+
+## Recommended Development Environment
+If you decide to attend the official course, you will notice that the development environment recommended in this book differs quite a lot from the one used for the course--a different  editor is recommended, and a different application server, and even a different build tool. The reason for this is to improve and expand your experience as a developer and to offer a practical development infrastructure. Motivation for each chioce is mentioned in the corresponding sections.
+
+## Recommended Build Tools
+The recommended deveopment environment should be composed of the following technologies:
+**Java8**. Download and install the JDK matching your operation system from http://www.oracle.com.
+!It is recommended to set the JAVA_HOME environment variable to point to the directory where Java 8 is installed(the directory in which the JDK was unpacked) and add $JAVA_HOME/bin to the general path of the system.The reason behind this is to ensure that any other development application written in Java will use this version of Java, and prevent strange incompatibility errors during development.
+
+!Verify that the version of Java that your operation system sees is the one you just installed. Open a terminal(Command+Prompt in Windows, or any type of terminal you have installed on Mac OS or Linux) and type the following:
+```shell
+java -version
+```
+You should see something similar to this:
+```shell
+java version "1.8.0_40"
+Java(TM) SE Runtime Environment (build 1.8.0_40)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+
+**Gradel 2.x**
+This sources attached to this book can be compiled and executed using the Gradle Wrapper, which is a batch script on Windows, or by using a shell script on other operating systems. When you start a Gradle build via the wrapper, Gradle is automatically downloaded and used to run the build, thus you do to need to install Gradle as stated prviously. Instructions on how to do this can be found on the public documentation at www.gradle.org/docs/current/userguide/gradle_wrapper.html.
+
+It is a good practice to keep code and build tools separate, but this study guide uses the Wrapper to easily set up the practice environment by skipping the Gradle installation step, and also because the recommended source code editor uses the Wrapper internally.
+
+If you decide to use Gradle outside the editor, you can download the binaries only (or, if you are more curious, you can download the full package, which contains binaries, sources, and documentaions) from the official site(https://www.gradle.org), unpack it and copy the contents somewhere on the hard drive. Create a GRADLE_HOME environment variable and point it to the location where you have unpacked Gradle. Also add $GRADLE_HOME/bin to the general path of the system.
+
+Gradle was chosen as a build tool for the sources of this book because of the easy setup, small configuration files, flexibility in defining execution tasks, and the fact that the SpringSource team currently uses it to build all Spring projects.
+
+!Verigy that the version of Gradle that your operation system sees is the one that you just installed. Open a terminal(Command+Prompt in Windows, any type of terminal you have installed on Mac OS or Linux) and type gradle -verion. You should see something similar to this:
+
+The preceding text shows a configuration that any Gradle command can be executed in your terminal;Gradle was installed successfully.
+
+
+**Jetty 9** is an open source web server that is free to use and easy to install; that's why it was chosen to be used in this study guide instead of the SpringSource tc Server. No need to download and install this web server, though, because there is no need to. There is a Gradle plugin called Getty that will be used to download the Jetty web server and deploy your *.war artifact on it. If you want to read more about Jetty, you can do so at http://eclipse.org/jetty/.
+
+## Recommended IDE
+The recommended IDE to use this study gide is Intellij IDEA. The reason for this is that it is the most intelligent Java IDE. IntelliJ IDEA offers outstanding framework-specific coding assistance and productivity-boosting features for Java EE. Spring also includes support for Maven and Gradle. It is the perfect choice to help you focus on learnig Spring, rather than how to use an IDE. It can be downloaed from the JetBrains official site(https://www.jetbrains.com/idea/).It is also quite light on your operating system and quite easy to use.
+
+Because the web applications developed as practice in this study guide are deploed on Jetty, the community edition of Intellij IDEA can be used because we do not need the server plugin. Ther main disadvantage of the community edition, though, is that it does not come with the Spring plugin, which is very useful in creating Spring configurationfiles because it adds the bean namespace by default.But solving the exercises in this book won't require that, so you can still consider IDEA an option. If you are curious about the full power of this IDE, you can download the Ultimate Edition, which has a trial peroid of 30 days. And you can even try to deploy the code samples on a Tomcat instance from within IDEA. You will find a example of how to do this in the appendix.
+
+If you are already familiar with a differenct Java editor, you can use it--as long as it supports Gradle.
+
+## The Project Sample
+Most of the code usein this study guide, except the book code modules, makes up a project named **Personal Records Manager**. This is a proof of concept application that aspires to manage the personal information of a group of people. The application is multimodular and each moduler is duplicated. The projects suffixed with **practice** are missing pieces of code and configuration, and are the ones that need  to be solved by you to test your understanding of Spring Web. The projects suffixed with **solution** are proposal resolutions for the tasks. You can see the project structure and the modules in Figure 1-3.
 
 
 
