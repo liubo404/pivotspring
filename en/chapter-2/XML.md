@@ -42,4 +42,4 @@ url=jdbc:h2:~/prod
 username=prod
 password=prod
 ```
-The value for the properties are loaded in to a java.util.Properties inst
+The value for the properties are loaded in to a java.util.Properties instance
