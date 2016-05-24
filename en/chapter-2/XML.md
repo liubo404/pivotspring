@@ -43,4 +43,4 @@ url=jdbc:h2:~/prod
 username=prod
 password=prod
 ```
-The value for the properties are loaded in to a java.util.Properties instance
+The value for the properties are loaded in to a java.util.Properties instance with a id of dbProp using a functionality offered by the util namespace in the first line of the configuration, and then their values are accessed using SpEL(Spring Expression Language) syntax and injected into the dataSource bean.
