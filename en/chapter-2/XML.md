@@ -24,3 +24,22 @@ manager.sava(new Person("John", "Smith", "1980-04-13"));
 ```
 
 As you can see, the code is alot smaller, because all the preparation of the environment was move into the XML configuration file. And the configuration file can be manipulated more easily. If an external property file is used as entry for some of the values in it, in some simple cases, the application doesn't even have to be recompiled to change behavior. The DataSource configuration can be separated from the general configuration file, which can later allow you to easigy switch between DataSource implementations--depending on the context in which a code should run.
+
+```xml
+<uti:properties id="dbProp" location="classpath:datasource/db.properties"/>
+
+<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+<property name="driverClassName" value="#{dbProp.driverClassName}"/>
+<property name="url" value="#{dbProp.url}"/>
+<property name="username" value="#{dbProp.username}"/>
+<property name="password" value="#{dbProp.password}"/>
+<bean>
+```xml
+In the previous example, the property values that look like #{value} are loaded from the db.properties file, which contains the following:
+```
+driverClassName=org.h2.Driver
+url=jdbc:h2:~/prod
+username=prod
+password=prod
+```
+The value for the properties are loaded in to a java.util.Properties inst
