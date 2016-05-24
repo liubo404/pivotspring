@@ -34,7 +34,8 @@ As you can see, the code is alot smaller, because all the preparation of the env
 <property name="username" value="#{dbProp.username}"/>
 <property name="password" value="#{dbProp.password}"/>
 <bean>
-```xml
+```
+
 In the previous example, the property values that look like #{value} are loaded from the db.properties file, which contains the following:
 ```
 driverClassName=org.h2.Driver
