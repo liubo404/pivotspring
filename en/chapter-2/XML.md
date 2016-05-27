@@ -43,4 +43,39 @@ url=jdbc:h2:~/prod
 username=prod
 password=prod
 ```
-The value for the properties are loaded in to a java.util.Properties instance with a id of dbProp using a functionality offered by the util namespace in the first line of the configuration, and then their values are accessed using SpEL(Spring Expression Language) syntax and injected into the dataSource bean.
+The value for the properties are loaded in to a java.util.Properties instance with a id of dbProp using a functionality offered by the util namespace in the first line of the configuration, and then their values are accessed using SpEL(Spring Expression Language) syntax and injected into the dataSource bean.(There is another way to do this using a component named PropertyPlaceholderConfigurer, which is covered in the "How Bean Factory Post Processors Work" section.)Spring knows how to do this because configuration files are constructured using XML namespaces.
+
+```xml
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/spring-util.xsd">
+       ...
+</beans>
+```
+
+The underlined values in the previous example show how a prefix is assigned to a namespace and how a namespace is associated with an XSD schema that contains the XML elements thant can be used in the configuration file. Ususally, each namespace contains definitions for all XML tags for a specific spring module, or a group of tags with related responsibilities.
+
+As everythis in Spring is a bean, most commonly used configuration styles use the bean's root element, and the namespace for it is declared using the xmlns attribute. When additional namespaces are used, the elments defined by them need to be used inside the current elments(beans). They need to have a prefix associated so that the Spring IoC knows in which namesace to look for those element definitions; notations such as xmlns:[prefix]="[namespace URL]" are used.
+
+! The running code in this example can be found in 02-chapter-solution project. This is a module of the book-code project, which was designed to gradually test your knowledge acquired while reading this book. The book-code contains one or more modules fro eache chapter. Some module names are postfixed with -practice and contain a series of TODO tasks that the developer should be able to complete after reading a chapter.
+
+Ther modules prefixed with -solution contain the completed tasks and are meant to e used for comparison with the developer's own solution. Sometimes a solution module might contain extra code that is meant simply to show the developer other situations that he might encounter in Spring projects.
+
+Fox example, by splitting up the configuration file to isolate the DataSource configuration, you could have the following configuration for a production environment:
+```java
+ApplicationContext context = new ClassPathXmlApplicationContext("application-config.xml", "db-config.xml");
+
+```
+And this configuration could be for a test environment:
+```java
+ApplicationContext context = new ClassPathXmlApplicatonContext("application-config.xml","test-db-config.xml");
+```
+
+The two environments are completely decoupled, and the tests are very easy to write. Figure 2-3 displays a typical structure for a Spring Maven project with a split configuration for production and a test environment.
+
+
