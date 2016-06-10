@@ -85,3 +85,7 @@ In the configuraton files, and when instantiating contexts, resources are usuall
 
 _Table 2-1. Prefixes and Corresponding Paths_
 
+Prefix | Location | Comment
+---|---|---
+no prefix|In root directory where the class creating the context is executed.|In the main or test directory. The type of the resouce being loaded depends on the ApplicationContext instance being used.(A detailed example is presented after this table.)
+classpath:|The resourceshould be obtained from the classpath.|In the resources directory; the resource is of type ClassPathResource.
