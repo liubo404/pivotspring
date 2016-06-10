@@ -79,3 +79,9 @@ ApplicationContext context = new ClassPathXmlApplicatonContext("application-conf
 The two environments are completely decoupled, and the tests are very easy to write. Figure 2-3 displays a typical structure for a Spring Maven project with a split configuration for production and a test environment.
 
 
+! In this example, the configuration files were created under a directory named spring to emphasize that these are Spring configuration files, because in a more complex project there could be XML configuration files for other purpose(for example, logging or caching stored outside of the spring directory). The code in this book intentionally skips the spring directory from the path to reduce the size of the quotes and to make the list of configuration files more readable.
+
+In the configuraton files, and when instantiating contexts, resources are usually prefixed with a word that tells the Spring container where they are located. These prefixes can be used for any type of resources needed in an application. Consider a standard Mavensetup for a project like the one in Figure 2-3, Table 2-1 shows the paths where a Spring container would look for resource files depending on the prefix.
+
+_Table 2-1. Prefixes and Corresponding Paths_
+
