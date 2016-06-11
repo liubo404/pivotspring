@@ -7,4 +7,5 @@
   * [Spring Configuration](chapter-2/SpringConfiguration.md)
   * [XML](chapter-2/XML.md)
   * [Annotations](chapter-2/Annotations.md)
+  * [Mixed](chapter-2/Mixed.md
 * [Chapter 3: Spring MVC](chapter3.md)

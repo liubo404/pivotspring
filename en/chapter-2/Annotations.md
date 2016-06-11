@@ -48,3 +48,7 @@ All the code to save a Person instance looks like this:
          }
   }
 ```
+When annotations are used, XML configuration files are no longer needed, nor namespaces. Specific annotations are used to mark configuration class(@Configuration) and to mark methods as bean definitios(@Bean); this is not covered because it is outside the scope of this book. What you need to remember is that the @Bean annotation makes sure that every thime the annotated method is called the same bean is returned. Withoud it, the method will return a newly created instance each time.
+
+CC In the previous code example, each @Bean annotatin has the attribute name populated with a value to name the bean createdd by the method. This attribute is neither mandatory nor necessary. When it is not specified, the Spring IoC determines a name for the bean based on the method name by removing the _get_ and lowercasing the first letter of the remaining string.
+
