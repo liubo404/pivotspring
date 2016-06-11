@@ -89,3 +89,15 @@ Prefix | Location | Comment
 ---|---|---
 no prefix|In root directory where the class creating the context is executed.|In the main or test directory. The type of the resouce being loaded depends on the ApplicationContext instance being used.(A detailed example is presented after this table.)
 classpath:|The resourceshould be obtained from the classpath.|In the resources directory; the resource is of type ClassPathResource.
+file:|In the absolute location following the prefix.|The resource is loaded as a URL from the filesystem and is of type UrlResource.
+http:|In the web location following the prefix.|The resource is loaded as a URL and is of type UrlResource.
+
+Thw following is an example of resource loadfing without using a prefix:
+```java
+Resource template = ctx.getResource("application-config.xml");
+```
+
+Depending on  the context class used, the resouce loaded can have one of the following types:
+- If ctx is ClassPathXmlApplicationContext instance, the resource type is ClassPathResouce
+- If ctx is a FileSystemXmlApplicationContext instance, the resouce type is FileSystemResource
+- If ctx is a WebApplicationContext instance, the resource type is ServletContextResource
