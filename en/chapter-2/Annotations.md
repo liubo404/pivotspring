@@ -1,3 +1,5 @@
+### Annotations
+
 Spring also supports configuration via annotations. The previous XML configuration can be replaced by a class annotated with @Configuration, and looks like this:
 
 ```java
