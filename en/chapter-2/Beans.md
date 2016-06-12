@@ -1,0 +1,2 @@
+## The Beans
+The beans are the objects handled by the Spring IoC container. The following section will cover all you need to know about how beans are created, how the beans are categorized, how they are accessed, and how they are destroyed when they are no longer needed.

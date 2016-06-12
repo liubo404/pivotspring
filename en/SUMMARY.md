@@ -8,4 +8,6 @@
   * [XML](chapter-2/XML.md)
   * [Annotations](chapter-2/Annotations.md)
   * [Mixed Approach](chapter-2/Mixed.md)
+  * [The Beans](chapter-2/Beans.md)
+  * [Lifecycle and Instantiation](chapter-2/Life.md)
 * [Chapter 3: Spring MVC](chapter3.md)
